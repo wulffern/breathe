@@ -251,6 +251,7 @@ class DomainDirectiveFactory:
         "namespace": (CPPTypeObject, "type"),
         "enumvalue": (CPPEnumeratorObject, "enumerator"),
         "define": (CMacroObject, "macro"),
+        'property': (CMacroObject, 'macro'),
     }
     c_classes = {
         "variable": (CMemberObject, "var"),
